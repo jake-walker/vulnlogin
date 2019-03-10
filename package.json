@@ -1,0 +1,15 @@
+{
+  "name": "vulnlogin",
+  "version": "1.0.0",
+  "description": "A simple vulnerable login page for demonstrating various cyber tools.",
+  "main": "index.js",
+  "repository": "git@github.com:jake-walker/vulnlogin.git",
+  "author": "Jake Walker <hi@jakew.me>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

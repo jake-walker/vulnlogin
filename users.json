@@ -1,0 +1,14 @@
+{
+  "admin": {
+    "password": "qwerty"
+  },
+  "root": {
+    "password": "password"
+  },
+  "guest": {
+    "password": "123456789"
+  },
+  "michael": {
+    "password": "pizza"
+  }
+}
