@@ -5,6 +5,8 @@ const users = require("./users.json");
 
 const app = new express();
 
+const port = process.env.VULNLOGIN_PORT || 3000;
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -63,6 +65,6 @@ app.post("/login", (req, res) => {
 
 app.use("/", express.static("assets"));
 
-app.listen(3000, () => {
-  console.log("VulnLogin listening on port 3000!");
+app.listen(port, () => {
+  console.log(`VulnLogin listening on port ${port}!`);
 });
