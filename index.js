@@ -5,7 +5,7 @@ const users = require("./users.json");
 
 const app = new express();
 
-const port = process.env.VULNLOGIN_PORT || 3000;
+const port = process.env.VULNLOGIN_PORT || 80;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
